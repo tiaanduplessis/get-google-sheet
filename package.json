@@ -1,0 +1,33 @@
+{
+  "name": "get-google-sheet",
+  "version": "1.0.0",
+  "description": "When you just need to get a public google sheet as JSON",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsup ./mod.ts --format cjs,esm --dts --target node16",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "google-sheet",
+    "get-google-sheet"
+  ],
+  "homepage": "https://github.com/tiaanduplessis/get-google-sheet#readme",
+  "bugs": {
+    "url": "https://github.com/tiaanduplessis/get-google-sheet/issues"
+  },
+  "repository": {
+    "url": "tiaanduplessis/get-google-sheet",
+    "type": "git"
+  },
+  "author": "tiaanduplessis",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^6.1.2",
+    "typescript": "^4.7.3"
+  }
+}
