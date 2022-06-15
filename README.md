@@ -12,12 +12,8 @@ When you just need to get a public google sheet as JSON
 
 - [get-google-sheet](#get-google-sheet)
   - [📖 Table of Contents](#-table-of-contents)
-  - [👀 Background](#-background)
-    - [Features](#features)
   - [⚙️ Install](#️-install)
   - [📖 Usage](#-usage)
-    - [Kitchen sink](#kitchen-sink)
-    - [Overridable value parsing](#overridable-value-parsing)
   - [📚 API](#-api)
   - [💬 Contributing](#-contributing)
   - [🪪 License](#-license)
