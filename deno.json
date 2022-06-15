@@ -12,5 +12,9 @@
     "files": {
       "exclude": ["node_modules", "dist", "package-lock.json"]
     }
+  },
+  "tasks": {
+    "validate": "deno lint && deno fmt",
+    "test": "deno test ./mod_test.ts --allow-all"
   }
 }
