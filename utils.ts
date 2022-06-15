@@ -7,8 +7,7 @@ export const parseText = (text: string): Parsed => {
       .split("\n")[1]
       .replace(/google.visualization.Query.setResponse\(|\);/g, ""),
   );
-}
-
+};
 
 export const hasLabelPropsInCols = (parsed: Parsed) =>
   parsed.table.cols.some(({ label }) => !!label);

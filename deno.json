@@ -5,7 +5,7 @@
     },
     "rules": {
       "tags": ["recommended"],
-      "exclude": ["no-explicit-any"]
+      "exclude": ["no-explicit-any", "ban-ts-comment"]
     }
   },
   "fmt": {

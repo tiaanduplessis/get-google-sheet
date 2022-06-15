@@ -5,7 +5,7 @@ import {
   mapToProp,
   parseText,
   // @ts-ignore
-} from "./utils.ts"; 
+} from "./utils.ts";
 
 export const getGoogleSheet = async (sheetId: string, name: string, {
   onValue = identity,
