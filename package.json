@@ -1,6 +1,6 @@
 {
   "name": "get-google-sheet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "When you just need to get a public google sheet as JSON",
   "types": "dist/mod.d.ts",
   "main": "dist/mod.js",
